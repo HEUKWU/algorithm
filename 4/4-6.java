@@ -1,0 +1,16 @@
+public class Main {
+    public static void main(String[] args) {
+
+        int sum = 0;
+
+        for (int i = 1; i < 7; i++) {
+            for (int j = 1; j < 7; j++) {
+                sum = i + j;
+                if (sum == 6) {
+//                    System.out.println("i = " + i + ", j = " + j + ", i + j = " + sum);
+                    System.out.println(i+"+"+j+"="+(i+j));
+                }
+            }
+        }
+    }
+}
